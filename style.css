@@ -1,0 +1,89 @@
+@font-face
+{
+    font-family: segoe-ui-semibold;
+    src: url(SegoeUISemibold.ttf);
+}
+*
+{
+    font-family: segoe-ui-semibold;
+}
+
+#header
+{
+    height: 15vh;
+    background-color: yellow;
+    border: 1px solid black;
+    border-bottom: none;
+    text-align: center;
+}
+
+#header-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#header-list li
+{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#bottom
+{
+    border: 1px solid black;
+    background-color: cornflowerblue;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.main-body
+{
+}
+
+.main-body h4
+{
+    font-style: italic;
+}
+
+#contact-me
+{
+}
+
+#contact-me-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-me li
+{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#contact-me form
+{
+    width: auto;
+}
+
+#contact-me input
+{
+    margin-bottom: 5px;
+}
+
+.icon
+{
+    width: 32px;
+    height: 32px;
+}
+
+fieldset
+{
+    width: 1%;
+}
+
+
