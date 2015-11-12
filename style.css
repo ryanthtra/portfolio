@@ -44,7 +44,7 @@
 #header
 {
     width: 100%;
-    height: 15vh;
+    height: 5vw;
     background-color: yellow;
     border: 1px solid black;
     border-bottom: none;
@@ -56,6 +56,7 @@
 {
     list-style-type: none;
     padding: 0;
+    margin: 0;
 }
 
 #header-list>li
@@ -169,14 +170,14 @@ fieldset
 
 #project-select h2
 {
-    font-size: 1.7vw;
+    font-size: 1.2vw;
     margin-bottom: 0;
 }
 
 #project-gallery
 {
     /*border: 1px solid yellow;*/
-    width: 60vw; /*59.6vw;*/
+    width: 84%; /*59.6vw;*/
     margin: 0 auto;
     /*padding-left: 1.2vw;*/
     position: relative;
@@ -186,15 +187,14 @@ fieldset
 {
     /*border: 1px solid yellow;*/
     position: relative;
-    height: 12.7vw;
-    width: 14vw;
-    margin-top: 0.5vw;
-    margin-bottom: 4vw;
-    margin-left: 3.0vw;
-    margin-right: 3.0vw;
+    height: 9.7vw;
+    width: 20.6%;
+    margin-top: 0.5%;
+    margin-bottom: 4%;
+    margin-left: 6%;
+    margin-right: 6%;
     display: inline-block;
     float: left;
-    text-align: center;
 }
 
 .project-container>.project-pic
@@ -207,7 +207,7 @@ fieldset
 
 .project-container div.project-frame-container
 {
-    width: 14vw;
+    width: 10vw;
     height: auto;
     display: inline-block;
 }
@@ -249,12 +249,12 @@ fieldset
 
 .project-container img.project-img
 {
-    width: 10.3vw;
+    width: 7.2vw;
     height: auto;
     zindex: 110;
     position: absolute;
-    top: 1.6vw;
-    right: 1.8vw;
+    top: 1.1vw;
+    right: 1.1vw;
 }
 
 
@@ -264,15 +264,14 @@ fieldset
     position: absolute;
     height: 29%;
     width: 100%;
-    top: 100%;
+    top: 80%;
     /*padding-top: 0.8vw;*/
 }
 
 .project-container p
 {
-    font-size: 1.5vw;
+    font-size: 1.0vw;
     text-transform: uppercase;
-    margin: 0;
 }
 /*END projects.html*/
 
