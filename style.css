@@ -273,6 +273,11 @@ fieldset
     font-size: 1.0vw;
     text-transform: uppercase;
 }
+
+:not(.project-label p::first-line)
+{
+    text-align: right;
+}
 /*END projects.html*/
 
 /*responsive design - mobile portrait*/

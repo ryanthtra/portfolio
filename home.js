@@ -6,7 +6,11 @@ document.addEventListener("DOMContentLoaded", function(event)
     });
 
     $('.project-pic').hover(blinkFrame);
+
+    map_controller = new MapController();
 });
+
+var map_controller = null;
 
 function blinkFrame()
 {
@@ -20,48 +24,23 @@ function moveMap(button)
     switch($(button).text())
     {
         case 'About Me':
-            $('#map').css(
-                {
-                    'transform': 'translate(0, 100%)',
-                    'transition-duration': '1.5s'
-                }
-            );
+            $('#map').attr('class', 'translate-A-02');
             break;
 
         case 'Contact Me':
-            $('#map').css(
-                {
-                    'transform': 'translate(0, -100%)',
-                    'transition-duration': '1.5s'
-                }
-            );
+            $('#map').attr('class', 'translate-C-02');
             break;
 
         case 'Skills':
-            $('#map').css(
-                {
-                    'transform': 'translate(100%, 0)',
-                    'transition-duration': '1.5s'
-                }
-            );
+            $('#map').attr('class', 'translate-B-01');
             break;
 
         case 'Experience':
-            $('#map').css(
-                {
-                    'transform': 'translate(-100%, 0)',
-                    'transition-duration': '1.5s'
-                }
-            );
+            $('#map').attr('class', 'translate-B-03');
             break;
 
         case 'Projects':
-            $('#map').css(
-                {
-                    'transform': 'translate(0, 0)',
-                    'transition-duration': '1.5s'
-                }
-            );
+            $('#map').attr('class', 'translate-B-02');
             break;
     }
 }
