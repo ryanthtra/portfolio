@@ -34,6 +34,11 @@
     font-weight: normal;
 }
 
+li
+{
+    font-size: 1.0vw;
+}
+
 .page-wrapper
 {
     width: 96vw;

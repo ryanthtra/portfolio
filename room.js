@@ -18,11 +18,12 @@ Room_A02.prototype.constructor = Room_A02;
 Room_A02.prototype.init = function()
 {
     this.map_controller.setTranslateClass('translate-A-02');
-    this.map_controller.enableAllButtons();
-    this.map_controller.disableButton(this.map_controller.button_up);
-    this.map_controller.setButtonLabel(this.map_controller.button_down, 'Projects');
-    this.map_controller.disableButton(this.map_controller.button_left);
-    this.map_controller.disableButton(this.map_controller.button_right);
+    this.map_controller.disableAllButtons();
+
+    setTimeout(function()
+    {
+        this.map_controller.enableButton(this.map_controller.button_down, 'Projects');
+    }, 1500);
 };
 Room_A02.prototype.execute = function($button)
 {
@@ -47,11 +48,12 @@ Room_B01.prototype.constructor = Room_B01;
 Room_B01.prototype.init = function()
 {
     this.map_controller.setTranslateClass('translate-B-01');
-    this.map_controller.enableAllButtons();
-    this.map_controller.disableButton(this.map_controller.button_up);
-    this.map_controller.disableButton(this.map_controller.button_down);
-    this.map_controller.disableButton(this.map_controller.button_left);
-    this.map_controller.setButtonLabel(this.map_controller.button_right, 'Projects');
+    this.map_controller.disableAllButtons();
+
+    setTimeout(function()
+    {
+        this.map_controller.enableButton(this.map_controller.button_right, 'Projects');
+    }, 1500);
 };
 Room_B01.prototype.execute = function($button)
 {
@@ -85,11 +87,15 @@ Room_B02.prototype.constructor = Room_B02;
 Room_B02.prototype.init = function()
 {
     this.map_controller.setTranslateClass('translate-B-02');
-    this.map_controller.enableAllButtons();
-    this.map_controller.setButtonLabel(this.map_controller.button_up, 'About Me');
-    this.map_controller.setButtonLabel(this.map_controller.button_down, 'Contact Me');
-    this.map_controller.setButtonLabel(this.map_controller.button_left, 'Skills');
-    this.map_controller.setButtonLabel(this.map_controller.button_right, 'Experience');
+    this.map_controller.disableAllButtons();
+
+    setTimeout(function()
+    {
+        this.map_controller.enableButton(this.map_controller.button_up, 'About Me');
+        this.map_controller.enableButton(this.map_controller.button_down, 'Contact Me');
+        this.map_controller.enableButton(this.map_controller.button_left, 'Skills');
+        this.map_controller.enableButton(this.map_controller.button_right, 'Experience');
+    }, 1500);
 };
 Room_B02.prototype.execute = function($button)
 {
@@ -123,11 +129,12 @@ Room_B03.prototype.constructor = Room_B03;
 Room_B03.prototype.init = function()
 {
     this.map_controller.setTranslateClass('translate-B-03');
-    this.map_controller.enableAllButtons();
-    this.map_controller.disableButton(this.map_controller.button_up);
-    this.map_controller.disableButton(this.map_controller.button_down);
-    this.map_controller.setButtonLabel(this.map_controller.button_left, 'Projects');
-    this.map_controller.disableButton(this.map_controller.button_right);
+    this.map_controller.disableAllButtons();
+
+    setTimeout(function()
+    {
+        this.map_controller.enableButton(this.map_controller.button_left, 'Projects');
+    }, 1500);
 };
 Room_B03.prototype.execute = function($button)
 {
@@ -161,11 +168,12 @@ Room_C02.prototype.constructor = Room_C02;
 Room_C02.prototype.init = function()
 {
     this.map_controller.setTranslateClass('translate-C-02');
-    this.map_controller.enableAllButtons();
-    this.map_controller.setButtonLabel(this.map_controller.button_up, 'Projects');
-    this.map_controller.disableButton(this.map_controller.button_down);
-    this.map_controller.disableButton(this.map_controller.button_left);
-    this.map_controller.disableButton(this.map_controller.button_right);
+    this.map_controller.disableAllButtons();
+
+    setTimeout(function()
+    {
+        this.map_controller.enableButton(this.map_controller.button_up, 'Projects');
+    }, 1500);
 };
 Room_C02.prototype.execute = function($button)
 {

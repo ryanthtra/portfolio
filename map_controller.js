@@ -31,17 +31,18 @@ MapController.prototype.changeRoom = function(new_room)
     this.current_room.init();
 };
 
-MapController.prototype.disableButton = function($button)
+MapController.prototype.disableAllButtons = function()
 {
-    $button.attr('class', 'button-hidden');
+    this.button_up.attr('class', 'button-hidden');
+    this.button_down.attr('class', 'button-hidden');
+    this.button_left.attr('class', 'button-hidden');
+    this.button_right.attr('class', 'button-hidden');
 };
 
-MapController.prototype.enableAllButtons = function()
+MapController.prototype.enableButton = function(button, label)
 {
-    this.button_up.attr('class', 'button-visible');
-    this.button_down.attr('class', 'button-visible');
-    this.button_left.attr('class', 'button-visible');
-    this.button_right.attr('class', 'button-visible');
+    button.attr('class', 'button-visible');
+    this.setButtonLabel(button, label);
 };
 
 MapController.prototype.setButtonLabel = function(button, label)
