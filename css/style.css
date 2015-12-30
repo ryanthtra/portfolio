@@ -31,6 +31,7 @@
 {
     background-color: rgb(22,100,226);
     height: 88vh;
+    overflow: scroll;
 }
 
 #header
@@ -98,6 +99,11 @@
 .main-body li
 {
     /*padding-left: 1vw;*/
+}
+
+.main-body li>a, .main-body li>a:visited
+{
+    color: lightgray;
 }
 
 #contact-me
