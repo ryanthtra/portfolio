@@ -1,0 +1,317 @@
+@font-face
+{
+    font-family: press-start-k;
+    src: url(../fonts/prstartk.ttf);
+}
+
+*
+{
+    font-family: press-start-k;
+    font-weight: normal;
+}
+
+.page-wrapper
+{
+    color: white;
+}
+
+.current-view
+{
+    margin-top: 50px;
+    background-color: #fbbf69;
+}
+
+.current-view h3
+{
+    margin-top: 12px;
+    margin-bottom: 14px;
+}
+
+.main-content
+{
+    background-color: rgb(22,100,226);
+    height: 88vh;
+}
+
+#header
+{
+    width: 100%;
+    height: 15vh;
+    background-color: yellow;
+    border: 1px solid black;
+    border-bottom: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#header-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#header-list>li
+{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#header-list>li>ul
+{
+    position: absolute;
+    list-style-type: none;
+    padding-top: 1vw;
+    padding-left: 0;
+    text-align: left;
+    display: none;
+}
+
+#header-list>li:hover>ul
+{
+    display: block;
+}
+
+#bottom
+{
+    width: 100%;
+    /*border: 1px solid black;*/
+    background-color: rgb(22,100,226);
+}
+
+.main-body
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 2% 0 5% 0
+}
+.main-body h3
+{
+    text-transform: uppercase;
+}
+
+.main-body h4
+{
+    font-style: italic;
+}
+
+.main-body li
+{
+    /*padding-left: 1vw;*/
+}
+
+#contact-me
+{
+}
+
+#contact-me-list
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+#contact-me li
+{
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+#contact-me form
+{
+    width: auto;
+}
+
+#contact-me input,
+#contact-me textarea
+{
+    width: 50%;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.icon
+{
+    width: 64px;
+    height: 64px;
+}
+
+fieldset
+{
+    width: 30%;
+}
+
+/*projects.html*/
+#project-select
+{
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    width: 56vw;
+    height: 42vw;
+    background-image: url("../images/project-bg.png");
+    background-size: cover;
+}
+
+#project-select>#headline
+{
+    padding-top: 1%;
+    text-align: center;
+}
+
+#project-select h2
+{
+    font-size: 170%;
+    margin-bottom: 0;
+}
+
+#project-gallery
+{
+    /*border: 1px solid yellow;*/
+    width: 75%; /*59.6vw;*/
+    height: inherit;
+    margin: 0 auto;
+    /*padding-left: 1.2vw;*/
+    position: relative;
+}
+
+.project-container
+{
+    /*border: 1px solid yellow;*/
+    position: relative;
+    height: 22.17%;
+    width: 22.5%;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    margin-left: 5.4%;
+    margin-right: 5.4%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.project-container>.project-pic
+{
+    /*border: 1px solid red;*/
+    position: relative;
+    height: 71%;
+    width: 100%;
+}
+
+.project-container div.project-frame-container
+{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+}
+
+.project-container div.project-frame-container>img.project-frame
+{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0%;
+    left: 0%;
+}
+
+.project-container div.project-frame-container>img.project-frame-blink
+{
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    top: 0%;
+    left: 0%;
+    display: none;
+}
+
+.project-pic div.project-frame-container>img.show-blink
+{
+    animation-name: blink;
+    animation-duration: .3s;
+    animation-iteration-count: infinite;
+    display: inherit;
+}
+
+@keyframes blink
+{
+    0%   { opacity: 100; }
+    50%  { opacity: 100; }
+    51%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.project-container img.project-img
+{
+    width: 71%;
+    height: auto;
+    zindex: 110;
+    position: absolute;
+    top: 17%;
+    right: 14.5%;
+}
+
+
+.project-container>.project-label
+{
+    /*border: 1px solid green;*/
+    position: absolute;
+    height: 29%;
+    width: 100%;
+    top: 89%;
+    /*padding-top: 0.8vw;*/
+}
+
+.project-container p
+{
+    font-size: 95%%;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.project-container p:lin
+{
+
+}
+/*END projects.html*/
+
+/*responsive design - mobile portrait*/
+@media screen and (max-device-width: 480px)
+{
+    div.page-wrapper
+    {
+       width: 100vw;
+    }
+
+    div#header
+    {
+        font-size: 2em;
+    }
+
+    div#bottom
+    {
+        font-size: 2em;
+    }
+
+    div#bottom #contact-me h3,
+    div#bottom #contact-me ul
+    {
+        text-align: center;
+    }
+
+    div#bottom #contact-me>form>input
+    {
+        width: 100%;
+        height: 4vh;
+        font-size: 1.2em;
+    }
+
+    div#bottom #contact-me>form>textarea
+    {
+        width: 100%;
+        font-size: .8em;
+    }
+    .icon
+    {
+        margin: auto 2vw;
+    }
+}
+/*END responsive - mobile*/
+
