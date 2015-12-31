@@ -1,0 +1,175 @@
+﻿/*responsive design - mobile portrait*/
+@media screen and (orientation: portrait)
+{
+    div.page-wrapper
+    {
+       width: 100vw;
+    }
+
+    div#header
+    {
+        font-size: 2em;
+    }
+
+    div#bottom
+    {
+        font-size: 2em;
+    }
+
+    div#bottom #contact-me h3,
+    div#bottom #contact-me ul
+    {
+        text-align: center;
+    }
+
+    div#bottom #contact-me>form>input
+    {
+        width: 100%;
+        height: 4vh;
+        font-size: 1.2em;
+    }
+
+    div#bottom #contact-me>form>textarea
+    {
+        width: 100%;
+        font-size: .8em;
+    }
+    .icon
+    {
+        margin: auto 2vw;
+    }
+
+    /*projects.html*/
+    #project-select
+    {
+        /*border: 1px solid black;*/
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        background-image: none;
+    }
+
+    #project-select>#headline
+    {
+        display: none;
+        padding-top: 1%;
+        text-align: center;
+    }
+
+    #project-select h2
+    {
+        font-size: 100%;
+        margin-bottom: 0;
+    }
+
+    #project-gallery
+    {
+        /*border: 1px solid yellow;*/
+        display: block;
+        width: 100%; /*59.6vw;*/
+        height: auto;
+        margin: 0 auto;
+        /*padding-left: 1.2vw;*/
+        position: static;
+    }
+
+    .project-container
+    {
+        display: block;
+        /*border: 1px solid yellow;*/
+        position: relative;
+        height: auto;
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 15%;
+        margin-left: 1%;
+        margin-right: 1%;
+        float: none;
+        text-align: center;
+    }
+
+    .project-container>.project-pic
+    {
+        /*border: 1px solid red;*/
+        position: relative;
+        height: auto;
+        width: 20%;
+        display: inline-block;
+        float: left;
+    }
+
+    .project-container div.project-frame-container
+    {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+    .project-container div.project-frame-container>img.project-frame
+    {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        top: 0%;
+        left: 0%;
+    }
+
+    .project-container div.project-frame-container>img.project-frame-blink
+    {
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        top: 0%;
+        left: 0%;
+        display: none;
+    }
+
+    .project-pic div.project-frame-container>img.show-blink
+    {
+        animation-name: blink;
+        animation-duration: .3s;
+        animation-iteration-count: infinite;
+        display: inherit;
+    }
+
+    @keyframes blink
+    {
+        0%   { opacity: 100; }
+        50%  { opacity: 100; }
+        51%  { opacity: 0; }
+        100% { opacity: 0; }
+    }
+
+    .project-container img.project-img
+    {
+        width: 71%;
+        height: auto;
+        zindex: 110;
+        position: absolute;
+        top: 28%;
+        right: 15%;
+    }
+
+
+    .project-container>.project-label
+    {
+        /*border: 1px solid green;*/
+        position: relative;
+        display: inline-block;
+        font-size: 70%;
+        height: 29%;
+        width: 75%;
+        top: 0%;
+        text-align: left;
+        /*padding-top: 0.8vw;*/
+    }
+
+    .project-container p
+    {
+        font-size: 95%;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    /*END projects.html*/
+}

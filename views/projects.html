@@ -3,150 +3,28 @@
      rat-active-title="Projects">
 
     <div id="project-select">
-        <script>
-            $(document).ready(function()
-            {
-                $('.project-pic').hover(blinkFrame);
-            });
-
-            function blinkFrame()
-            {
-                var frame = $(this).find('.project-frame-blink');
-
-                frame.toggleClass("show-blink");
-            }
-        </script>
         <div id="headline">
             <h2>PROJECT SELECT</h2>
         </div>
 
-        <div id="project-gallery">
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="../mboutique/index.html">
+        <ul id="project-gallery">
+            <li class="project-container" ng-repeat="project in projects">
+                <div class="project-pic" 
+                     ng-mouseenter="blinkFrame($index)"
+                     ng-mouseleave="unblinkFrame($index)">
+                    <a href={{project.linkUrl}}>
                         <div class="project-frame-container">
                             <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
                             <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
                         </div>
-                        <img class="project-img" src="images/mboutique.png" alt="MBoutique Thumbnail">
+                        <img class="project-img" ng-hide="getProjectThumbnail($index)==''" src={{getProjectThumbnail($index)}} alt="{{project.label}} Thumbnail">
                     </a>
                 </div>
                 <div class="project-label">
-                    <p>MBoutique</p>
+                    <p>{{project.label}}</p>
                 </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="../memory_match/index.html">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <img class="project-img" src="images/matcheffect.png" alt="Match Effect Thumbnail">
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p>Memory Match</p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="../SGT_Pears_Yummy/SGT/index.html">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <img class="project-img" src="images/sgt.png" alt="Match Effect Thumbnail">
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p>Student Grade Table</p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="../calculator/index.html">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <img class="project-img" src="images/calculator.png" alt="Match Effect Thumbnail">
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p>Calculator</p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="#">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <!--<img class="project-img" src="images/matcheffect.png" alt="Match Effect Thumbnail">-->
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p></p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="#">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <!--<img class="project-img" src="images/matcheffect.png" alt="Match Effect Thumbnail">-->
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p></p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="#">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <!--<img class="project-img" src="images/matcheffect.png" alt="Match Effect Thumbnail">-->
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p></p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="#">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <!--<img class="project-img" src="images/matcheffect.png" alt="Match Effect Thumbnail">-->
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p></p>
-                </div>
-            </div>
-            <div class="project-container">
-                <div class="project-pic">
-                    <a href="#">
-                        <div class="project-frame-container">
-                            <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
-                            <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
-                        </div>
-                        <!--<img class="project-img" src="images/matcheffect.png" alt="Match Effect Thumbnail">-->
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p></p>
-                </div>
-            </div>
-        </div>
+            </li>
+        </ul>
     </div>
+    <script src="models/projects.js"></script>
 </div>
