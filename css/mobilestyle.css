@@ -6,7 +6,7 @@
        width: 100vw;
     }
 
-    div#header
+    /*div#header
     {
         font-size: 2.1vw;
     }
@@ -14,7 +14,7 @@
     div.bottom
     {
         font-size: 2.7vw;
-    }
+    }*/
 
     div.bottom #contact-me h3,
     div.bottom #contact-me ul
@@ -39,11 +39,11 @@
         margin: auto 2vw;
     }
 
-    .main-body h4
+    /*.main-body h4
     {
         font-style: italic;
         font-size: 3.7vw;
-    }
+    }*/
 
     /*projects.html*/
     #project-select
