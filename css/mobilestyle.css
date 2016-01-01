@@ -8,28 +8,28 @@
 
     div#header
     {
-        font-size: 2em;
+        font-size: 2.1vw;
     }
 
-    div#bottom
+    div.bottom
     {
-        font-size: 2em;
+        font-size: 1.9vw;
     }
 
-    div#bottom #contact-me h3,
-    div#bottom #contact-me ul
+    div.bottom #contact-me h3,
+    div.bottom #contact-me ul
     {
         text-align: center;
     }
 
-    div#bottom #contact-me>form>input
+    div.bottom #contact-me>form>input
     {
         width: 100%;
         height: 4vh;
         font-size: 1.2em;
     }
 
-    div#bottom #contact-me>form>textarea
+    div.bottom #contact-me>form>textarea
     {
         width: 100%;
         font-size: .8em;
