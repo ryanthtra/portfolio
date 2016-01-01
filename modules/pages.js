@@ -23,6 +23,7 @@ function ProjectsCtrl($scope, currentView)
     $scope.getProjectLink = getProjectLink;
     $scope.getProjectThumbnail = getProjectThumbnail;
     $scope.getProjectLabel = getProjectLabel;
+    $scope.isEmptyProjectInPortrait = isEmptyProjectInPortrait;
 
     $scope.blinkFrame = function(index)
     {
@@ -47,6 +48,10 @@ function ProjectsCtrl($scope, currentView)
     function getProjectLabel(index)
     {
         return projects[index].label;
+    }
+    function isEmptyProjectInPortrait(index)
+    {
+        return (projects[index].label.length == 0 && screen.height > screen.width);
     }
 }
 

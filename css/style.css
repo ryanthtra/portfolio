@@ -17,13 +17,11 @@
 
 .current-view
 {
-    margin-top: 50px;
     background-color: #fbbf69;
 }
 
 .current-view h3
 {
-    margin-top: 12px;
     margin-bottom: 14px;
 }
 
@@ -165,8 +163,8 @@ fieldset
 
 #project-select h2
 {
-    font-size: 170%;
-    margin-bottom: 0;
+    font-size: 1.2vw;
+    margin: 2% 0 0 0;
 }
 
 #project-gallery
@@ -176,7 +174,7 @@ fieldset
     width: 75%; /*59.6vw;*/
     height: inherit;
     margin: 0 auto;
-    /*padding-left: 1.2vw;*/
+    padding-left: 0;
     position: relative;
 }
 
@@ -195,7 +193,18 @@ fieldset
     text-align: center;
 }
 
-.project-container>.project-pic
+.project-container>a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.project-container>a:hover
+{
+    color: lightgray;
+}
+
+.project-container .project-pic
 {
     /*border: 1px solid red;*/
     position: relative;
@@ -247,7 +256,7 @@ fieldset
 
 .project-container img.project-img
 {
-    width: 71%;
+    width: 72%;
     height: auto;
     zindex: 110;
     position: absolute;
@@ -256,7 +265,7 @@ fieldset
 }
 
 
-.project-container>.project-label
+.project-container .project-label
 {
     /*border: 1px solid green;*/
     position: absolute;
@@ -268,7 +277,7 @@ fieldset
 
 .project-container p
 {
-    font-size: 95%;
+    font-size: 1vw;
     text-transform: uppercase;
     margin: 0;
 }

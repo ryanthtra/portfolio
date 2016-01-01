@@ -23,25 +23,25 @@
         linkUrl: 'http://ryanthtra.github.io/hacka-tictactoe-athon',
         thumbnail: 'images/matcheffect.png',
         label: 'TTT Hackathon'
-    },
-    {
-        linkUrl: '#/projects',
-        thumbnail: '',
-        label: ''
-    },
-    {
-        linkUrl: '#/projects',
-        thumbnail: '',
-        label: ''
-    },
-    {
-        linkUrl: '#/projects',
-        thumbnail: '',
-        label: ''
-    },
-    {
-        linkUrl: '#/projects',
-        thumbnail: '',
-        label: ''
     }
+    //{
+    //    linkUrl: '#/projects',
+    //    thumbnail: '',
+    //    label: ''
+    //},
+    //{
+    //    linkUrl: '#/projects',
+    //    thumbnail: '',
+    //    label: ''
+    //},
+    //{
+    //    linkUrl: '#/projects',
+    //    thumbnail: '',
+    //    label: ''
+    //},
+    //{
+    //    linkUrl: '#/projects',
+    //    thumbnail: '',
+    //    label: ''
+    //}
 ];

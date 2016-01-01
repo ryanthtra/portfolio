@@ -8,21 +8,22 @@
         </div>
 
         <ul id="project-gallery">
-            <li class="project-container" ng-repeat="project in projects">
-                <div class="project-pic" 
-                     ng-mouseenter="blinkFrame($index)"
-                     ng-mouseleave="unblinkFrame($index)">
-                    <a href={{project.linkUrl}}>
+            <li class="project-container" ng-repeat="project in projects" ng-hide="isEmptyProjectInPortrait($index)">
+                <a href={{project.linkUrl}}>
+                    <div class="project-pic"
+                         ng-mouseenter="blinkFrame($index)"
+                         ng-mouseleave="unblinkFrame($index)">
+
                         <div class="project-frame-container">
                             <img class="project-frame" src="images/project-frame.png" alt="Project Frame">
                             <img class="project-frame-blink" src="images/project-frame-blink.png" alt="Project Frame">
                         </div>
                         <img class="project-img" ng-hide="getProjectThumbnail($index)==''" src={{getProjectThumbnail($index)}} alt="{{project.label}} Thumbnail">
-                    </a>
-                </div>
-                <div class="project-label">
-                    <p>{{project.label}}</p>
-                </div>
+                    </div>
+                    <div class="project-label">
+                        <p>{{project.label}}</p>
+                    </div>
+                </a>
             </li>
         </ul>
     </div>

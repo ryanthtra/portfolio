@@ -88,7 +88,7 @@
         text-align: center;
     }
 
-    .project-container>.project-pic
+    .project-container .project-pic
     {
         /*border: 1px solid red;*/
         position: relative;
@@ -142,16 +142,16 @@
 
     .project-container img.project-img
     {
-        width: 71%;
+        width: 72.5%;
         height: auto;
         zindex: 110;
         position: absolute;
-        top: 28%;
-        right: 15%;
+        top: 2vw;
+        right: 13.5%;
     }
 
 
-    .project-container>.project-label
+    .project-container .project-label
     {
         /*border: 1px solid green;*/
         position: relative;
@@ -166,7 +166,7 @@
 
     .project-container p
     {
-        font-size: 95%;
+        font-size: 1.7vw;
         text-transform: uppercase;
         margin: 0;
     }
