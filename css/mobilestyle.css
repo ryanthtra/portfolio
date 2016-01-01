@@ -13,7 +13,7 @@
 
     div.bottom
     {
-        font-size: 1.9vw;
+        font-size: 2.7vw;
     }
 
     div.bottom #contact-me h3,
@@ -37,6 +37,12 @@
     .icon
     {
         margin: auto 2vw;
+    }
+
+    .main-body h4
+    {
+        font-style: italic;
+        font-size: 3.7vw;
     }
 
     /*projects.html*/
@@ -78,7 +84,7 @@
         display: block;
         /*border: 1px solid yellow;*/
         position: relative;
-        height: auto;
+        height: 6vw;
         width: 100%;
         margin-top: 3%;
         margin-bottom: 15%;
