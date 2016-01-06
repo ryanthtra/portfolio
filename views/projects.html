@@ -9,7 +9,7 @@
 
         <ul id="project-gallery">
             <li class="project-container" ng-repeat="project in projects" ng-hide="isEmptyProjectInPortrait($index)">
-                <a href={{project.linkUrl}}>
+                <a href={{project.linkUrl}} target="_blank">
                     <div class="project-pic"
                          ng-mouseenter="blinkFrame($index)"
                          ng-mouseleave="unblinkFrame($index)">

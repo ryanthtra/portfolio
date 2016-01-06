@@ -15,19 +15,38 @@
     color: white;
 }
 
+.navbar
+{
+    margin-bottom: 0;
+}
+
+.navbar-brand, #portfolio-menu ul li a
+{
+    text-shadow: 2px 5px 1px #E7E7E6;
+}
+
+#portfolio-menu>ul>li.active>a
+{
+    text-shadow: 2px 5px 1px #CCCCCA;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+}
+
 .current-view
 {
-    background-color: #fbbf69;
+    background-image: linear-gradient(to bottom, #D3A158, #fbbf69, #EEB564);
 }
 
 .current-view h3
 {
     margin-bottom: 14px;
+    text-shadow: 4px 6px 5px #A47C44;
 }
 
 .main-content
 {
-    background-color: rgb(22,100,226);
+    background: rgb(22,100,226);
+    background: linear-gradient(to bottom, #1664E2, #1459CA);
     height: 88vh;
     overflow: scroll;
 }
@@ -75,12 +94,14 @@
 {
     width: 100%;
     /*border: 1px solid black;*/
-    background-color: rgb(22,100,226);
+    /*background-color: rgb(22,100,226);*/
+    background: none;
+    position: relative;
 }
 
 .main-body
 {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     padding: 2% 0 5% 0
 }
@@ -99,9 +120,16 @@
     /*padding-left: 1vw;*/
 }
 
-.main-body li>a, .main-body li>a:visited
+.main-body li>a, .main-body li>a:visited, p a
 {
     color: lightgray;
+    text-decoration: underline;
+}
+
+.main-body li>a:hover, .main-body li>a:hover, p a:hover
+{
+    color: gray;
+    text-decoration: underline;
 }
 
 #contact-me
