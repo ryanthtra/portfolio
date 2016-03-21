@@ -2,3 +2,14 @@ body
 {
     
 }
+
+.page-content
+{
+    margin-top: 10vh;
+}
+
+.project-card
+{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
