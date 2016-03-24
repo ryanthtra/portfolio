@@ -17,8 +17,42 @@ function ExperienceCtrl(currentView)
 {
 }
 
-function ProjectsCtrl(currentView)
+function ProjectsCtrl($scope, currentView)
 {
+    $scope.projects = projects;
+    $scope.getProjectLink = getProjectLink;
+    $scope.getProjectThumbnail = getProjectThumbnail;
+    $scope.getProjectLabel = getProjectLabel;
+    $scope.isEmptyProjectInPortrait = isEmptyProjectInPortrait;
+
+    $scope.blinkFrame = function(index)
+    {
+        var frame = $('#project-gallery').find('.project-frame-blink')[index];
+
+        $(frame).addClass("show-blink");
+    }
+    $scope.unblinkFrame = function(index)
+    {
+        var frame = $('#project-gallery').find('.project-frame-blink')[index];
+
+        $(frame).removeClass("show-blink");
+    }
+    function getProjectLink(index)
+    {
+        return projects[index].linkUrl;
+    }
+    function getProjectThumbnail(index)
+    {
+        return projects[index].thumbnail;
+    }
+    function getProjectLabel(index)
+    {
+        return projects[index].label;
+    }
+    function isEmptyProjectInPortrait(index)
+    {
+        return (projects[index].label.length == 0 && screen.height > screen.width);
+    }
 }
 
 function ContactMeCtrl(currentView)
