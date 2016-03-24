@@ -21,22 +21,22 @@
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">Ryan Transfiguracion</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Ryan Transfiguracion, Full-Stack Web Developer</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li label="introduction" class="active"><a href="#introduction">Intro</a></li>
-                    <li label="skills"><a href="#skills">Skills</a></li>
-                    <li label="projects"><a href="#projects">Projects</a></li>
-                    <li label="experience"><a href="#experience">Experience</a></li>
+                    <li label="introduction"><a href="#">Intro</a></li>
+                    <li label="skills"><a href="#">Skills</a></li>
+                    <li label="projects"><a href="#">Projects</a></li>
+                    <li label="experience"><a href="#">Experience</a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact<span class="caret"></span></a>
                         <ul class="dropdown-menu">
@@ -52,8 +52,19 @@
     </nav>
     
     <div id='bottom-content'>
-        <div class="container-fluid billboard">
-            <div id="introduction" class="row billboard-content front">
+        <div class="billboard">
+            <div id="splash" class=" container-fluid billboard-content front">
+                <div class="row">
+                    <div class="card-collection col-xs-10">
+                    </div>    
+                </div>
+                <!--<div class="row">
+                    <div class='col-xs-offset-8 col-sm-offset-10 col-md-offset-11'>
+                        <button type='button' id='button-proceed' class='btn btn-primary'>Proceed</button>
+                    </div>
+                </div>-->
+            </div>
+            <div id="introduction" class="container-fluid  billboard-content hidden">
                 <div class="col-md-10 col-md-offset-1">
                     <h2>Introduction</h2>
                     <p>
@@ -64,8 +75,9 @@
                     </p>
                 </div>    
             </div>
-            <div id="skills" class="row billboard-content hidden">
-                <div class="col-md-10 col-md-offset-1">
+            <div id="skills" class="container-fluid  billboard-content hidden">
+                <div class="row">
+                    <div class="col-md-10 col-md-offset-1">
                     <h2>Skills</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est nulla, sollicitudin dictum sapien commodo nec. Aenean a eros magna. Maecenas commodo ligula sed leo consectetur, sed viverra mi pretium. Vestibulum ultricies lobortis ante, sed efficitur turpis eleifend sit amet. Maecenas leo eros, sollicitudin a pellentesque rutrum, lacinia ac urna. Donec mattis quis mauris non posuere. Cras vel faucibus est, et euismod sapien. Duis vehicula magna laoreet, pretium odio vitae, ultricies velit. Mauris ullamcorper lectus ac turpis luctus hendrerit. Duis ac turpis sed lectus blandit mollis. Donec ligula dolor, faucibus eu blandit et, varius ut eros. Nunc eget odio non sem ultrices mollis eget in lorem.
@@ -73,9 +85,10 @@
                     <p>
                         Quisque semper felis nisi, non egestas justo pharetra id. Nam quis nunc non lorem tincidunt tristique nec eu turpis. Quisque ornare tempor laoreet. Ut laoreet molestie hendrerit. Donec aliquam arcu enim, vel tincidunt sem sollicitudin ut. Nulla facilisi. Aenean ligula neque, congue et laoreet at, commodo non mi. Cras dictum maximus lacus, elementum gravida nulla suscipit vel. Etiam facilisis dapibus nunc vitae suscipit. Aenean tristique sit amet odio vitae interdum. Nulla sit amet leo ac elit gravida semper. Integer quam justo, placerat sit amet felis at, gravida pharetra neque. Suspendisse ac malesuada velit, ac commodo eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
                     </p>
-                </div>    
+                </div>
+                </div>                   
             </div>
-            <div id="projects" class="row billboard-content hidden">
+            <div id="projects" class="container-fluid  billboard-content hidden">
                 <div class="col-md-10 col-md-offset-1">
                     <h2>Projects</h2>
                     <div class="row">
@@ -100,15 +113,17 @@
                     </div>
                 </div>    
             </div>
-            <div id="experience" class="row billboard-content hidden">
-                <div class="col-md-10 col-md-offset-1">
-                    <h2>Experience</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est nulla, sollicitudin dictum sapien commodo nec. Aenean a eros magna. Maecenas commodo ligula sed leo consectetur, sed viverra mi pretium. Vestibulum ultricies lobortis ante, sed efficitur turpis eleifend sit amet. Maecenas leo eros, sollicitudin a pellentesque rutrum, lacinia ac urna. Donec mattis quis mauris non posuere. Cras vel faucibus est, et euismod sapien. Duis vehicula magna laoreet, pretium odio vitae, ultricies velit. Mauris ullamcorper lectus ac turpis luctus hendrerit. Duis ac turpis sed lectus blandit mollis. Donec ligula dolor, faucibus eu blandit et, varius ut eros. Nunc eget odio non sem ultrices mollis eget in lorem.
-                    </p>
-                    <p>
-                        Quisque semper felis nisi, non egestas justo pharetra id. Nam quis nunc non lorem tincidunt tristique nec eu turpis. Quisque ornare tempor laoreet. Ut laoreet molestie hendrerit. Donec aliquam arcu enim, vel tincidunt sem sollicitudin ut. Nulla facilisi. Aenean ligula neque, congue et laoreet at, commodo non mi. Cras dictum maximus lacus, elementum gravida nulla suscipit vel. Etiam facilisis dapibus nunc vitae suscipit. Aenean tristique sit amet odio vitae interdum. Nulla sit amet leo ac elit gravida semper. Integer quam justo, placerat sit amet felis at, gravida pharetra neque. Suspendisse ac malesuada velit, ac commodo eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                    </p>
+            <div id="experience" class="container-fluid  billboard-content hidden">
+                <div class="row">                  
+                    <div class="col-md-10 col-md-offset-1">
+                        <h2>Experience</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit est nulla, sollicitudin dictum sapien commodo nec. Aenean a eros magna. Maecenas commodo ligula sed leo consectetur, sed viverra mi pretium. Vestibulum ultricies lobortis ante, sed efficitur turpis eleifend sit amet. Maecenas leo eros, sollicitudin a pellentesque rutrum, lacinia ac urna. Donec mattis quis mauris non posuere. Cras vel faucibus est, et euismod sapien. Duis vehicula magna laoreet, pretium odio vitae, ultricies velit. Mauris ullamcorper lectus ac turpis luctus hendrerit. Duis ac turpis sed lectus blandit mollis. Donec ligula dolor, faucibus eu blandit et, varius ut eros. Nunc eget odio non sem ultrices mollis eget in lorem.
+                        </p>
+                        <p>
+                            Quisque semper felis nisi, non egestas justo pharetra id. Nam quis nunc non lorem tincidunt tristique nec eu turpis. Quisque ornare tempor laoreet. Ut laoreet molestie hendrerit. Donec aliquam arcu enim, vel tincidunt sem sollicitudin ut. Nulla facilisi. Aenean ligula neque, congue et laoreet at, commodo non mi. Cras dictum maximus lacus, elementum gravida nulla suscipit vel. Etiam facilisis dapibus nunc vitae suscipit. Aenean tristique sit amet odio vitae interdum. Nulla sit amet leo ac elit gravida semper. Integer quam justo, placerat sit amet felis at, gravida pharetra neque. Suspendisse ac malesuada velit, ac commodo eros. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                        </p>
+                    </div>
                 </div>    
             </div>
         </div>
@@ -118,6 +133,8 @@
 
     <!--Loading JS file at the bottom-->
     <script src="script.js"></script>
+    <script src="billboard.js"></script>
+    <script src="card.js"></script>
 </body>
 
 </html>
