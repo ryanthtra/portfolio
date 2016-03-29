@@ -91,6 +91,7 @@ function showSplash(show, cardCollection)
     {
         $('.billboard>#splash').hide();
         $('.billboard>#introduction').removeClass('hidden');
+        $('.billboard>#introduction').addClass('front');
         $('.navbar-nav>li[label="introduction"]').addClass('active');
     }
 }

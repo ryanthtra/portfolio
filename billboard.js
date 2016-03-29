@@ -17,7 +17,8 @@ Billboard.prototype.flip = function($clickedMenuItem)
     $clickedMenuItem.addClass('active'); 
     
     var side = this.isBackShown ? 'front' : 'back';
-    this.isBackShown = !this.isBackShown;
+    var otherside = !this.isBackShown ? 'front' : 'back';
+    this.isBackShown = !this.isBackShown;    
     
     // Remove the back class from the previous back class
     var $prevBack = $('.billboard .' + side);
@@ -27,8 +28,13 @@ Billboard.prototype.flip = function($clickedMenuItem)
     // Add the back class to the section that will 
     var label = $clickedMenuItem.attr('label');
     var $newBack = $('#' + label);
-    $newBack.removeClass('hidden');
     $newBack.addClass(side);
     
     $('.billboard').toggleClass('flip-horiz');
+    
+    setTimeout(function()
+    {
+        $newBack.removeClass('hidden');
+        $('.' + otherside).addClass('hidden');
+    }, 280);
 };
