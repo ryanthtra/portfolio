@@ -211,15 +211,19 @@
         float: left;
         width: 100%;
         height: 50%;
-        /*background-color: blue;*/
-        /*border-top: 4px double #383838;*/
+        /*background-color: blue;*/     
         border-bottom-left-radius: 3%;
         border-bottom-right-radius: 3%;
         padding: 0;
         overflow: auto;
     }   
     
-    .card-big-right-down>p:first-child
+    .card-big-right-down>*
+    {
+        font-size: 2.5vh;
+        margin: 0 5% 1% 5%;
+    }
+    .card-big-right-down>*:first-child
     {
         font-size: 3vh;
         font-style: italic;
@@ -261,13 +265,13 @@
     
     .card-icon-row
     {
-        height: 20%;
+        height: 18%;
         margin-top: 1%;        
     }
-    .project-icon-row
+    .card-icon-row-2
     {
-        margin-top: 2%;
-        height: 20%;
+        margin-top: 2.5%;
+        height: 18%;
     }
     
     .card-icon
@@ -275,8 +279,8 @@
         background-color: white;
         float: left;
         border: 1px solid #383838;
-        width: 8.5vh;
-        height: 8.5vh;
+        width: 9.0vh;
+        height: 9.0vh;
         border-radius: 50%;
         margin-left: 2%;
         overflow: hidden;
@@ -288,7 +292,7 @@
     }    
 }
 
-/*Trading-card styling covering the entire billboard element (landscape)*/
+/*Trading-card styling covering the entire billboard element (portrait)*/
 @media screen and (orientation: portrait)
 {
     .card-big-left-up
@@ -323,7 +327,12 @@
         /*padding: 0;*/
     }
     
-    .card-big-right-down>p:first-child
+    .card-big-right-down>*
+    {
+        font-size: 2.5vh;
+        margin: 0 5% 1% 5%;
+    }
+    .card-big-right-down>*:first-child
     {
         font-size: 3vh;
         font-style: italic;
@@ -335,7 +344,7 @@
         position: absolute;
         right: 0;        
         top: 4%;
-        width: 45%;
+        width: 40%;
         height: 15%;
         /*background-color: green;*/
         border-top: 4px double #383838;
@@ -347,7 +356,7 @@
     {
         position: absolute;
         top: 4%;
-        left: 47%;
+        left: 52%;
         border-radius: 50% 0 0 50%;
         border-left: 4px double #383838;
         border-top: 4px double #383838;
@@ -364,15 +373,15 @@
     .card-icon-row
     {
         position: absolute;
-        height: 20%;
+        height: 18%;
         width: 100%;
         top: 4%;        
     }
-    .project-icon-row
+    .card-icon-row-2
     {
         position: absolute;
-        top: 26%;
-        height: 20%;
+        top: 24%;
+        height: 18%;
         width: 100%;
     }
     
@@ -381,10 +390,10 @@
         background-color: white;
         float: left;
         border: 1px solid #383838;
-        width: 8.5vw;
-        height: 8.5vw;
+        width: 9.0vw;
+        height: 9.0vw;
         border-radius: 50%;
-        margin-left: 2%;
+        margin-left: 3%;
         overflow: hidden;
     }
     .card-icon>img
@@ -404,4 +413,9 @@
     cursor: pointer;
     transition: transform .5s;
     transform: scale(1.2, 1.2);
+}
+.card-icon-selected
+{
+    transform: scale(1.2, 1.2);
+    border: 4px solid black;
 }

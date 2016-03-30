@@ -52,6 +52,21 @@ document.addEventListener("DOMContentLoaded", function(event)
         $('.navbar').show();
         billboard.flip($('.navbar-nav>li[label="introduction"]')); 
     });
+    
+    // Functionality when a card icon is clicked.
+    $('.card-icon-row, .card-icon-row-2').on('click', '.card-icon', function()
+    {        
+        var label = $(this).attr('content-id');
+        var section = $(this).parent().parent().parent();
+        section.find('.card-icon-selected').removeClass('card-icon-selected');
+        $(this).addClass('card-icon-selected');
+        loadCardContent(section, label);
+    });
+    
+    // Trigger certain card icons to be clicked.
+    $($('#introduction .card-icon')[0]).trigger('click');
+    $($('#skills .card-icon')[5]).trigger('click');
+    // $('#experience .card-icon')[0].trigger('click');
 });
 
 function showSplash(show, cardCollection)
