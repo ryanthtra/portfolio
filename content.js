@@ -73,12 +73,26 @@ var cardContent =
 	],
 	skills_lamp: [
 		"LAMP Stack (Back-End Development).",
-	],
-	skills_agile: [
-		"Agile Development Process.",
+		"<b>Action:</b> Use this to provide data from a remote server to access via AJAX and present on a webpage (not used for this portfolio).",
+		"The \"LAMP\" components which I use are:",
+		[
+			"<b>L</b>inux - operating system (Ubuntu).",
+			"<b>A</b>pache - server software.",
+			"<b>M</b>ySQL - relational database management system.",
+			"<b>P</b>HP Hypertext Preprocessor - programming language."	
+		],
+		"I'm also looking forward to learning newer back-end technologies, such as MongoDB and Node.js."				
 	],
 	skills_version: [
-		"Version Control.",
+		"Version Control Systems.",
+		"<b>Action:</b> Use this to keep a stable version of a project while still being able to add features to said project, and, then, be able to easily merge these changes with the stable version (<b>Psst:</b> I used Git to maintain this portfolio project <a href='https://github.com/ryanthtra/portfolio' target='_blank'>here!</a>).",
+		"Version control systems I have experience with include:",
+		[
+			"Git",
+			"Perforce",
+			"Mercurial",
+			"Subversion"
+		]
 		
 	],
 	skills_past: [
