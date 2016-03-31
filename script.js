@@ -65,8 +65,9 @@ document.addEventListener("DOMContentLoaded", function(event)
     
     // Trigger certain card icons to be clicked.
     $($('#introduction .card-icon')[0]).trigger('click');
-    $($('#skills .card-icon')[5]).trigger('click');
-    // $('#experience .card-icon')[0].trigger('click');
+    $($('#skills .card-icon')[0]).trigger('click');
+    $($('#projects .card-icon')[0]).trigger('click');
+    $($('#experience .card-icon')[3]).trigger('click');
 });
 
 function showSplash(show, cardCollection)

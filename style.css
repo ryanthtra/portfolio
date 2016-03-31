@@ -192,14 +192,29 @@
 {
     overflow-x: hidden;
 }
-
-
+#skills>.card-big-left-up
+{
+    background-image: url('img/skills.jpg');
+}
+#projects>.card-big-left-up
+{
+    background-image: url('img/projects.jpg');
+}
+#experience>.card-big-left-up
+{
+    background-image: url('img/experience.jpg');
+}
+#contact>.card-big-left-up
+{
+    background-image: url('img/contact.jpg');
+}
 
 /*Trading-card styling covering the entire billboard element (landscape)*/
 @media screen and (orientation: landscape)
 {
     .card-big-left-up
     {
+        background-size: cover;
         position: relative;
         display: block;
         float: left;
@@ -245,26 +260,28 @@
         width: 80%;
         margin-left: 0%;
         height: 20%;
-        /*background-color: green;*/        
+        background: linear-gradient(to right, white, #E9E9E9); 
         text-align: center;
         font-size: 6vh;
         border-top: 4px double #383838;
-        border-bottom: 4px double #383838;
+        border-bottom: 4px double #383838;        
     }
     .card-big-title-end-border
     {
         position: absolute;
         bottom: 0;
-        left: 12%;
+        left: 13%;
         border-radius: 50% 0 0 50%;
         border-left: 4px double #383838;
         border-top: 4px double #383838;
         border-bottom: 4px double #383838;
         height: 20%;    
         width: 8%;
+        background-color: white;
     }
     .card-big-title>p
     {
+        overflow: visible;
         position: relative;
         right: 8%;
     }
@@ -303,6 +320,7 @@
 {
     .card-big-left-up
     {
+        background-size: cover;
         position: relative;
         display: block;
         float: left;
@@ -352,23 +370,26 @@
         top: 4%;
         width: 40%;
         height: 15%;
-        /*background-color: green;*/
+        background: linear-gradient(to right, white, #E9E9E9);
         border-top: 4px double #383838;
         border-bottom: 4px double #383838;
-        text-align: center;
+        text-align: right;
         font-size: 3.7vh;
+        overflow: visible;
     }
     .card-big-title-end-border
     {
         position: absolute;
         top: 4%;
-        left: 52%;
+        left: 53%;
         border-radius: 50% 0 0 50%;
         border-left: 4px double #383838;
         border-top: 4px double #383838;
         border-bottom: 4px double #383838;
         height: 15%;    
         width: 8%;
+        background-color: white;
+        overflow: visible;
     }
     .card-big-title>p
     {
@@ -395,7 +416,7 @@
     {
         background-color: white;
         float: left;
-        border: 1px solid #383838;
+        border: 1px solid #C7C7C7;
         width: 9.0vw;
         height: 9.0vw;
         border-radius: 50%;
@@ -423,5 +444,6 @@
 .card-icon-selected
 {
     transform: scale(1.2, 1.2);
-    border: 4px solid black;
+    border: 4px solid #C7C7C7;  
+    box-sizing: border-box; 
 }
