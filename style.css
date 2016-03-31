@@ -126,12 +126,12 @@
 
 .card .front {
   background-color: white;
-  backface-visibility: visible;
+  backface-visibility: hidden;
 }
 
 .card .back {
   background-color: white;
-  backface-visibility: visible;
+  backface-visibility: hidden;
   transform: rotateY(180deg);
 }
 
