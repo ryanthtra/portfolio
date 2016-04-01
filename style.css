@@ -438,7 +438,6 @@
 .card-icon:hover
 {
     cursor: pointer;
-    transition: transform .5s;
     transform: scale(1.2, 1.2);
 }
 .card-icon-selected

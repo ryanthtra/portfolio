@@ -31,7 +31,7 @@ Card.prototype.flipCard = function()
         {
             back.removeClass('hidden');
             front.addClass('hidden');
-        }, 600);
+        }, 500);
     }
     
     this.cardFlipped = !this.cardFlipped;

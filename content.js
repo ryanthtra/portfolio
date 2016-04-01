@@ -2,7 +2,7 @@ var cardContent =
 {
 	// Introduction Section
 	intro_programmer: [
-		"Programmer.",		
+		"Full-Stack Web Developer.",		
 		"<b>Description:</b> I'm a web developer with skills in both the front-end and the back-end.  I'm looking forward to helping a company make lots of money by filling their web applications with pretty things!",
 		[
 			"Recent graduate of the LearningFuze Full Immersion Training Course (i.e. coding bootcamp).",
@@ -42,14 +42,14 @@ var cardContent =
 	// Skills section
 	skills_html: [
 		"HyperText Markup Language.",
-		"<b>Action:</b> Use this for defining the \"skeleton\" and most basic layout of a webpage (<b>Psst:</b> I used it making this portfolio!).",
+		"<b>Action:</b> Use this for defining the \"skeleton\" and most basic layout of a webpage and its components.",
 		[
-			"<b>Twitter Bootstrap:</b> Front-End framework for quickly creating ergonomic and responsive layouts using only HTML (Lightly used in this portfolio for the top navigation bar.)."
+			"<b>Twitter Bootstrap:</b> Front-End framework for quickly creating ergonomic and responsive layouts using only HTML -- lightly used in this portfolio for the top navigation bar."
 		]
 	],
 	skills_css: [
 		"Cascading Style Sheets.",
-		"<b>Action:</b> Use this for defining the visual style of a webpage  (<b>Psst:</b> I also used this for this portfolio!).",
+		"<b>Action:</b> Use this for defining the visual style of a webpage.",
 		"CSS features I have proficiency in include:",
 		[
 			"Selectors and Inheritance",
@@ -61,7 +61,7 @@ var cardContent =
 	],
 	skills_javascript: [
 		"JavaScript.",
-		"<b>Action:</b> Use this to add interaction with and functionality to a webpage (<b>Psst:</b> Yep, I used it here, too!).",
+		"<b>Action:</b> Use this to add interaction with and functionality to a webpage.",
 		"Other JavaScript Skills:",
 		[
 			"<b>jQuery:</b> Provides easier manipulation of Document Object Model (DOM) elements of a webpage (heavily used in this portfolio)",
@@ -74,7 +74,7 @@ var cardContent =
 	],
 	skills_lamp: [
 		"LAMP Stack (Back-End Development).",
-		"<b>Action:</b> Use this to create application programming interfaces (APIs) for a webpage to use to access data from, or submit data to, a remote server (not used for this portfolio).",
+		"<b>Action:</b> Use this to create application programming interfaces (APIs) for a webpage to use to access data from, or submit data to, a remote server.",
 		"The \"LAMP\" components which I use are:",
 		[
 			"<b>L</b>inux - operating system (Ubuntu).",
@@ -119,19 +119,27 @@ var cardContent =
 	
 	// Projects Section
 	projects_mboutique: [
-		"MBoutique. <a href='http://ryanthtra.github.io/mboutique' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/mboutique' target='_blank'>(Code)</a>"	
+		"MBoutique. <a href='http://ryanthtra.github.io/mboutique' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/mboutique' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A website of a fake business that bakes and sells the decadent sweet treat, the macaron.",
+		[
+			"<b></b>"
+		]
 	],
 	projects_memmatch: [
-		"Memory Match Game. <a href='http://ryanthtra.github.io/memory_match' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/memory_match' target='_blank'>(Code)</a>"
+		"Memory Match Game. <a href='http://ryanthtra.github.io/memory_match' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/memory_match' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A browser version of the classic game Memory, with a sweet Mass Effect theme!"
 	],
 	projects_sgt: [
-		"Student Grade Table. <a href='http://ryanthtra.github.io/SGT' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/sgt' target='_blank'>(Code)</a>"
+		"Student Grade Table. <a href='http://ryanthtra.github.io/SGT' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/sgt' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A mock administrative web application for schoolteachers to access and enter grade data for their students."
 	],
 	projects_calculator: [
-		"Calculator."
+		"Calculator. <a href='http://ryanthtra.github.io/calculator' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/calculator' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A basic Miami Vice-themed arithmetic calculator with solar panels."
 	],
 	projects_tictactoe: [
-		"Tic Tac Toe."
+		"Tic Tac Toe. <a href='http://ryanthtra.github.io/hacka-tictactoe-athon' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/hacka-tictactoe-athon' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A browser version of a two-player Tic Tac Toe game, with a Star Wars theme.  Initially developed as a one-day hackathon project."
 	],
 	
 	// Experience Section
