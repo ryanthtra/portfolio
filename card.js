@@ -10,7 +10,14 @@ Card.prototype.flipCard = function()
     {
         $(this.cardDom).addClass('card-flipback');
         $(this.cardDom).removeClass('card-flip');
-        $(this.cardDom).removeClass('card-flipped');             
+        $(this.cardDom).removeClass('card-flipped');
+        var front = $(this.cardDom).find('.front').find('p');
+        var back = $(this.cardDom).find('.back').find('p');
+        setTimeout(function()
+        {
+            back.addClass('hidden');
+            front.removeClass('hidden');
+        }, 500);           
     }
     else 
     {
@@ -18,6 +25,13 @@ Card.prototype.flipCard = function()
         $(this.cardDom).addClass('card-flipped');
         if ($(this.cardDom).hasClass('card-flipback'))
         $(this.cardDom).removeClass('card-flipback');
+        var front = $(this.cardDom).find('.front').find('p');
+        var back = $(this.cardDom).find('.back').find('p');
+        setTimeout(function()
+        {
+            back.removeClass('hidden');
+            front.addClass('hidden');
+        }, 500);
     }
     
     this.cardFlipped = !this.cardFlipped;

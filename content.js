@@ -2,7 +2,7 @@ var cardContent =
 {
 	// Introduction Section
 	intro_programmer: [
-		"Programmer.",		
+		"Full-Stack Web Developer.",		
 		"<b>Description:</b> I'm a web developer with skills in both the front-end and the back-end.  I'm looking forward to helping a company make lots of money by filling their web applications with pretty things!",
 		[
 			"Recent graduate of the LearningFuze Full Immersion Training Course (i.e. coding bootcamp).",
@@ -42,14 +42,14 @@ var cardContent =
 	// Skills section
 	skills_html: [
 		"HyperText Markup Language.",
-		"<b>Action:</b> Use this for defining the \"skeleton\" and most basic layout of a webpage (<b>Psst:</b> I used it making this portfolio!).",
+		"<b>Action:</b> Use this for defining the \"skeleton\" and most basic layout of a webpage and its components.",
 		[
-			"<b>Twitter Bootstrap:</b> Front-End framework for quickly creating ergonomic and responsive layouts using only HTML (Lightly used in this portfolio for the top navigation bar.)."
+			"<b>Twitter Bootstrap:</b> Front-End framework for quickly creating ergonomic and responsive layouts using only HTML -- lightly used in this portfolio for the top navigation bar."
 		]
 	],
 	skills_css: [
 		"Cascading Style Sheets.",
-		"<b>Action:</b> Use this for defining the visual style of a webpage  (<b>Psst:</b> I also used this for this portfolio!).",
+		"<b>Action:</b> Use this for defining the visual style of a webpage.",
 		"CSS features I have proficiency in include:",
 		[
 			"Selectors and Inheritance",
@@ -61,12 +61,13 @@ var cardContent =
 	],
 	skills_javascript: [
 		"JavaScript.",
-		"<b>Action:</b> Use this to add interaction with and functionality to a webpage (<b>Psst:</b> Yep, I used it here, too!).",
+		"<b>Action:</b> Use this to add interaction with and functionality to a webpage.",
 		"Other JavaScript Skills:",
 		[
 			"<b>jQuery:</b> Provides easier manipulation of Document Object Model (DOM) elements of a webpage (heavily used in this portfolio)",
 			"<b>Object-Oriented Programming:</b> Basic objects, constructors, methods, prototypes.",
 			"<b>Functional Programming:</b> Anonymous functions, closures, functions as objects, event callbacks.",
+			"<b>Asynchronous Data Access:</b> Sending and retrieving access from a server via AJAX.",
 			"<b>Front-End MVC Frameworks:</b> Familar with and eager to learn, such as Angular and Ember.",
 			"<b>Visualization Frameworks:</b> Familiar with and eager to learn, such as React and D3."
 		]
@@ -74,7 +75,7 @@ var cardContent =
 	],
 	skills_lamp: [
 		"LAMP Stack (Back-End Development).",
-		"<b>Action:</b> Use this to create application programming interfaces (APIs) for a webpage to use to access data from, or submit data to, a remote server (not used for this portfolio).",
+		"<b>Action:</b> Use this to create application programming interfaces (APIs) for a webpage to use to access data from, or submit data to, a remote server.",
 		"The \"LAMP\" components which I use are:",
 		[
 			"<b>L</b>inux - operating system (Ubuntu).",
@@ -119,19 +120,24 @@ var cardContent =
 	
 	// Projects Section
 	projects_mboutique: [
-		"MBoutique. <a href='http://ryanthtra.github.io/mboutique' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/mboutique' target='_blank'>(Code)</a>"	
+		"MBoutique. <a href='http://ryanthtra.github.io/mboutique' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/mboutique' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A website of a fake business that bakes and sells the decadent sweet treat, the macaron."
 	],
 	projects_memmatch: [
-		"Memory Match Game. <a href='http://ryanthtra.github.io/memory_match' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/memory_match' target='_blank'>(Code)</a>"
+		"Memory Match Game. <a href='http://ryanthtra.github.io/memory_match' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/memory_match' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A browser version of the classic game Memory, with a sweet Mass Effect theme!"
 	],
 	projects_sgt: [
-		"Student Grade Table. <a href='http://ryanthtra.github.io/SGT' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/sgt' target='_blank'>(Code)</a>"
+		"Student Grade Table. <a href='http://ryanthtra.github.io/SGT' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/sgt' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A mock administrative web application for schoolteachers to access and enter grade data for their students."
 	],
 	projects_calculator: [
-		"Calculator."
+		"Calculator. <a href='http://ryanthtra.github.io/calculator' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/calculator' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A basic Miami Vice-themed arithmetic calculator with solar panels."
 	],
 	projects_tictactoe: [
-		"Tic Tac Toe."
+		"Tic Tac Toe. <a href='http://ryanthtra.github.io/hacka-tictactoe-athon' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/hacka-tictactoe-athon' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A browser version of a two-player Tic Tac Toe game, with a Star Wars theme.  Initially developed as a one-day hackathon project."
 	],
 	
 	// Experience Section
@@ -150,7 +156,7 @@ var cardContent =
 		],
 		"<b>Multiple Namco classic arcade games</b> for J2ME.",
 		[
-			"Ported multiple games on hundreds of J2ME handsets – over 600 ports total.",
+			"Ported multiple games on hundreds of J2ME handsets; over 600 ports total.",
 			"Implemented client-side direct billing system for Ms. PAC-MAN J2ME preload demo.",
 			"Lead engineer for Super Yum Yum 2 J2ME porting and created demo in 2007."
 		]
@@ -189,16 +195,21 @@ var cardContent =
 	
 	// Contact section
 	contact_gmail: [
-		"Gmail.",		
+		"Gmail.",
+		"<b>Action:</b> Click link to email address <a href='mailto:rtransfig@gmail.com?Subject=Come%20Work%20for%20Us%20Here!' target='_blank'>rtransfig@gmail.com</a>.  Write a message telling me how I can contribute to the continued success of your company."	
 	],
 	contact_linkedin: [
-		"LinkedIn.",	
+		"LinkedIn.",
+		"<b>Action:</b> Check out <a href='https://www.linkedin.com/in/ryananthonytransfiguracion' target='_blank'>my profile</a>.  Click on the button \"Send Ryan InMail\".  Write a message telling me how I can contribute to the continued success of your company."
 	],
 	contact_github: [
-		"GitHub.",	
+		"GitHub.",
+		"<b>Action:</b> Check out <a href='http://github.com/ryanthtra' target='_blank'>my GitHub account</a>."	
 	],
 	contact_freecodecamp: [
 		"freeCodeCamp.",
+		"<b>Description:</b> A place where I refreshed much of my web development knowledge after being on vacation for a couple of months.",
+		"<b>Action:</b> Check out <a href='http://freecodecamp.com/ryanthtra' target='_blank'>my profile</a>.  You can look at my solutions to some of the coding challenge problems."
 	]
 };
 
@@ -210,6 +221,7 @@ function loadCardContent(sectionSelector, propertyName)
 	$textDiv.html('');
 	// Get the corrent property from the cardContent object
 	var contentArr = cardContent[propertyName];
+	var ulCounter = 0;
 	// Re-fill its contents
 	for (var i = 0; i < contentArr.length; i++)
 	{
@@ -221,9 +233,11 @@ function loadCardContent(sectionSelector, propertyName)
 			if (Object.prototype.toString.call(contentArr[i]) == '[object Array]')
 			{
 				$textDiv.append($('<ul>'));
-				var $list = $textDiv.find('ul');
+				var list = $textDiv.children('ul')[ulCounter++];
 				for (var j = 0; j < contentArr[i].length; j++)
-					$list.append($('<li>').html(contentArr[i][j]));
+				{
+					$(list).append($('<li>').html(contentArr[i][j]));
+				}
 			}
 			else
 			{

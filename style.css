@@ -126,12 +126,12 @@
 
 .card .front {
   background-color: white;
-  backface-visibility: visible;
+  backface-visibility: hidden;
 }
 
 .card .back {
   background-color: white;
-  backface-visibility: visible;
+  backface-visibility: hidden;
   transform: rotateY(180deg);
 }
 
@@ -185,12 +185,17 @@
 
 .card-collection
 {
-    margin-top: 30vh;
+    margin-top: 13vh;
 }
 
 #splash
 {
     overflow-x: hidden;
+    background-image: url('img/splash2.jpg');
+}
+#introduction>.card-big-left-up
+{
+    background-image: url('img/intro.jpg');
 }
 #skills>.card-big-left-up
 {
@@ -438,7 +443,6 @@
 .card-icon:hover
 {
     cursor: pointer;
-    transition: transform .5s;
     transform: scale(1.2, 1.2);
 }
 .card-icon-selected
