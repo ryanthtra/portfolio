@@ -185,12 +185,17 @@
 
 .card-collection
 {
-    margin-top: 30vh;
+    margin-top: 13vh;
 }
 
 #splash
 {
     overflow-x: hidden;
+    background-image: url('img/splash2.jpg');
+}
+#introduction>.card-big-left-up
+{
+    background-image: url('img/intro.jpg');
 }
 #skills>.card-big-left-up
 {
