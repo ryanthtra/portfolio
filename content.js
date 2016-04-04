@@ -212,7 +212,7 @@ var cardContent =
 	],
 	contact_freecodecamp: [
 		"freeCodeCamp.",
-		"<b>Description:</b> A place where I refreshed much of my web development knowledge after being on vacation for a couple of months.",
+		"<b>Description:</b> A place where I refreshed much of my web development knowledge after a long break.",
 		"<b>Action:</b> Check out <a href='http://freecodecamp.com/ryanthtra' target='_blank'>my profile</a>.  You can look at my solutions to some of the coding challenge problems."
 	]
 };
