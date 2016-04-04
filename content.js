@@ -67,7 +67,7 @@ var cardContent =
 			"<b>jQuery:</b> Provides easier manipulation of Document Object Model (DOM) elements of a webpage (heavily used in this portfolio)",
 			"<b>Object-Oriented Programming:</b> Basic objects, constructors, methods, prototypes.",
 			"<b>Functional Programming:</b> Anonymous functions, closures, functions as objects, event callbacks.",
-			"<b>Asynchronous Data Access:</b> Sending and retrieving access from a server via AJAX.",
+			"<b>Asynchronous Data Access:</b> Sending and retrieving data from a server via AJAX.",
 			"<b>Front-End MVC Frameworks:</b> Familar with and eager to learn, such as Angular and Ember.",
 			"<b>Visualization Frameworks:</b> Familiar with and eager to learn, such as React and D3."
 		]
