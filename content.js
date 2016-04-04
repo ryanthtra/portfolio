@@ -139,6 +139,10 @@ var cardContent =
 		"Tic Tac Toe. <a href='http://ryanthtra.github.io/hacka-tictactoe-athon' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/hacka-tictactoe-athon' target='_blank'>(Code)</a>",
 		"<b>Description:</b> A browser version of a two-player Tic Tac Toe game, with a Star Wars theme.  Initially developed as a one-day hackathon project."
 	],
+	projects_tribute: [
+		"Tribute Page. <a href='http://ryanthtra.github.io/fcc_tributepage' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/fcc_tributepage' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A simple website that gives a tribute to the hero of the Mass Effect story, Commander Shepard."
+	],
 	
 	// Experience Section
 	experience_namco: [
