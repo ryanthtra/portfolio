@@ -237,7 +237,7 @@
 		background-position: 50%;
 	}
 }
-/*#skills>.card-big-left-up
+#skills>.card-big-left-up
 {
     background-image: url('img/skills.jpg');
 }
@@ -252,7 +252,7 @@
 #contact>.card-big-left-up
 {
     background-image: url('img/contact.jpg');
-}*/
+}
 .card-big-left-up>img
 {
 	position: absolute;
