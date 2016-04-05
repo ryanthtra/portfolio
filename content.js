@@ -67,7 +67,7 @@ var cardContent =
 			"<b>jQuery:</b> Provides easier manipulation of Document Object Model (DOM) elements of a webpage (heavily used in this portfolio)",
 			"<b>Object-Oriented Programming:</b> Basic objects, constructors, methods, prototypes.",
 			"<b>Functional Programming:</b> Anonymous functions, closures, functions as objects, event callbacks.",
-			"<b>Asynchronous Data Access:</b> Sending and retrieving access from a server via AJAX.",
+			"<b>Asynchronous Data Access:</b> Sending and retrieving data from a server via AJAX.",
 			"<b>Front-End MVC Frameworks:</b> Familar with and eager to learn, such as Angular and Ember.",
 			"<b>Visualization Frameworks:</b> Familiar with and eager to learn, such as React and D3."
 		]
@@ -139,6 +139,10 @@ var cardContent =
 		"Tic Tac Toe. <a href='http://ryanthtra.github.io/hacka-tictactoe-athon' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/hacka-tictactoe-athon' target='_blank'>(Code)</a>",
 		"<b>Description:</b> A browser version of a two-player Tic Tac Toe game, with a Star Wars theme.  Initially developed as a one-day hackathon project."
 	],
+	projects_tribute: [
+		"Tribute Page. <a href='http://ryanthtra.github.io/fcc_tributepage' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/fcc_tributepage' target='_blank'>(Code)</a>",
+		"<b>Description:</b> A simple website that gives a tribute to the hero of the Mass Effect story, Commander Shepard."
+	],
 	
 	// Experience Section
 	experience_namco: [
@@ -208,7 +212,7 @@ var cardContent =
 	],
 	contact_freecodecamp: [
 		"freeCodeCamp.",
-		"<b>Description:</b> A place where I refreshed much of my web development knowledge after being on vacation for a couple of months.",
+		"<b>Description:</b> A place where I refreshed much of my web development knowledge after a long break.",
 		"<b>Action:</b> Check out <a href='http://freecodecamp.com/ryanthtra' target='_blank'>my profile</a>.  You can look at my solutions to some of the coding challenge problems."
 	]
 };

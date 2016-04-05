@@ -188,14 +188,38 @@
     margin-top: 13vh;
 }
 
-#splash
+@media screen and (orientation: landscape)
 {
-    overflow-x: hidden;
-    background-image: url('img/splash2.jpg');
+	#splash
+	{
+		overflow-x: hidden;
+		background-image: url('img/splash_landscape.jpg');
+		background-size: cover;
+	}
 }
-#introduction>.card-big-left-up
+@media screen and (orientation: portrait)
 {
-    background-image: url('img/intro.jpg');
+	#splash
+	{
+		overflow-x: hidden;
+		background-image: url('img/splash_portrait.jpg');
+		background-size: cover;
+	}
+}
+@media screen and (orientation: landscape)
+{
+	#introduction>.card-big-left-up
+	{
+		background-image: url('img/intro.jpg');
+	}
+}
+@media screen and (orientation: portrait)
+{
+	#introduction>.card-big-left-up
+	{
+		background-image: url('img/intro.jpg');
+		background-position: 50%;
+	}
 }
 #skills>.card-big-left-up
 {
@@ -448,6 +472,6 @@
 .card-icon-selected
 {
     transform: scale(1.2, 1.2);
-    border: 4px solid #C7C7C7;  
+    border: 4px solid #FF0000;  
     box-sizing: border-box; 
 }
