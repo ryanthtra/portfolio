@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event)
     {
         // Check if variable exists.
         if (sessionStorage.initialSession !== undefined)
-        {
+        {		
             showSplash(false, cardCollection);  
         }
         else
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function(event)
     
     // Functionality when navbar element is clicked.
     $('.navbar-nav').on('click', 'a', function() {
-        billboard.flip($(this).parent());
+        billboard.flip($(this).parent());	
     });
     
     // Functionality when the splash card collection is clicked.
@@ -106,7 +106,7 @@ function showSplash(show, cardCollection)
     // Show the intro instead.
     else
     {
-        $('.billboard>#splash').hide();
+        $('.billboard>#splash').addClass('hidden');
         $('.billboard>#introduction').removeClass('hidden');
         $('.billboard>#introduction').addClass('front');
         $('.navbar-nav>li[label="introduction"]').addClass('active');

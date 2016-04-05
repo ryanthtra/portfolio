@@ -206,9 +206,20 @@
 		background-size: cover;
 	}
 }
-#introduction>.card-big-left-up
+@media screen and (orientation: landscape)
 {
-    background-image: url('img/intro.jpg');
+	#introduction>.card-big-left-up
+	{
+		background-image: url('img/intro.jpg');
+	}
+}
+@media screen and (orientation: portrait)
+{
+	#introduction>.card-big-left-up
+	{
+		background-image: url('img/intro.jpg');
+		background-position: 50%;
+	}
 }
 #skills>.card-big-left-up
 {

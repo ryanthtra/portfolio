@@ -6,7 +6,7 @@ function Billboard()
 }
 
 Billboard.prototype.flip = function($clickedMenuItem)
-{
+{	
     // If we're clicking on the same item that's already active
     // then just exit the function.
     if ($clickedMenuItem.hasClass('active'))
