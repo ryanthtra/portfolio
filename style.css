@@ -188,10 +188,23 @@
     margin-top: 13vh;
 }
 
-#splash
+@media screen and (orientation: landscape)
 {
-    overflow-x: hidden;
-    background-image: url('img/splash2.jpg');
+	#splash
+	{
+		overflow-x: hidden;
+		background-image: url('img/splash_landscape.jpg');
+		background-size: cover;
+	}
+}
+@media screen and (orientation: portrait)
+{
+	#splash
+	{
+		overflow-x: hidden;
+		background-image: url('img/splash_portrait.jpg');
+		background-size: cover;
+	}
 }
 #introduction>.card-big-left-up
 {
