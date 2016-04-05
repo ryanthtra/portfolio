@@ -191,6 +191,25 @@
     
 </div> <!--.page-wrapper-->
 
+	<div class="hidden">
+		<script type="text/javascript">
+			<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"img/skills.jpg",
+				"img/projects.jpg",
+				"img/experience.jpg",
+				"img/contact.jpg"
+			)
+			//--><!]]>
+		</script>
+	</div>
     <!--Loading JS file at the bottom-->
     <script src="script.js"></script>
     <script src="billboard.js"></script>
