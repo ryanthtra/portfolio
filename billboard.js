@@ -29,12 +29,17 @@ Billboard.prototype.flip = function($clickedMenuItem)
     var label = $clickedMenuItem.attr('label');
     var $newBack = $('#' + label);
     $newBack.addClass(side);
-    
+		
     $('.billboard').toggleClass('flip-horiz');
     
     setTimeout(function()
     {
-        $newBack.removeClass('hidden');
         $('.' + otherside).addClass('hidden');
     }, 280);
+	setTimeout(function()
+    {
+        $newBack.removeClass('hidden');
+    }, 230);
+	// $('.' + otherside).addClass('hidden');
+	// $newBack.removeClass('hidden');
 };

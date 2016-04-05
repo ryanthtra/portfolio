@@ -13,6 +13,12 @@ document.addEventListener("DOMContentLoaded", function(event)
     var billboard = new Billboard();
     var cardCollection = null;
     
+	// Preload images
+	$('#skills>.card-big-left-up').css({'background-image': 'url("img/skills.jpg")'});
+	$('#projects>.card-big-left-up').css({'background-image': 'url("img/projects.jpg")'});
+	$('#experience>.card-big-left-up').css({'background-image': 'url("img/experience.jpg")'});
+	$('#contact>.card-big-left-up').css({'background-image': 'url("img/contact.jpg")'});
+	
     if (typeof(Storage) !== "undefined")
     {
         // Check if variable exists.

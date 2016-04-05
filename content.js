@@ -6,13 +6,13 @@ var cardContent =
 		"<b>Description:</b> I'm a web developer with skills in both the front-end and the back-end.  I'm looking forward to helping a company make lots of money by filling their web applications with pretty things!",
 		[
 			"Recent graduate of the LearningFuze Full Immersion Training Course (i.e. coding bootcamp).",
-			"Eager to apply new-found skills and discover new ones for future personal endeavors and for the modern enterprise seeking enthusiastic talent.",
+			"Eager to enhance current skills and develop new ones while contributing to professional enterprises.",
 			"Previously a mobile game and application developer, using J2ME, Windows Phone, iOS, and the Unity 3D game engine."
 		]
 	],
 	intro_gamer: [
-		"Gamer.",
-		"<b>Description:</b> I've been a gamer since the ColecoVision and up to and including the current PS4/Xbox One generation.",
+		"Game Enthusiast.",
+		"<b>Description:</b> I've been playing games since the ColecoVision and up to and including the current PS4/Xbox One generation.",
 		[
 			"Enjoys most games, but especially those that include RPG elements.",
 			"Current favorites include Mass Effect, NBA 2K, and Diablo III.",
@@ -93,7 +93,7 @@ var cardContent =
 			"Git",
 			"Perforce",
 			"Mercurial",
-			"Subversion"
+			"Subversion (SVN)"
 		]
 		
 	],
@@ -103,7 +103,7 @@ var cardContent =
 		[
 			"<b>Code Editor/IDE</b>: Visual Studio 2015, Visual Studio Code (Used for this portfolio!), PhpStorm.",
 			"<b>Prototyping:</b> JS Bin, JSFiddle, CodePen, PhpFiddle, RegEx101.",
-			"<b>Image Editing:</b> GIMP, MS Paint.",
+			"<b>Image Editing:</b> GIMP.",
 			"<b>Debugging:</b> Google Chrome Developer Tools, Devsense PHP Tools for Visual Studio.",
 			"<b>Version Control:</b> GitHub, Command Prompt, Terminal.",
 			"<b>Cloud Computing:</b> Microsoft Azure, Amazon Web Services (familiar)."
