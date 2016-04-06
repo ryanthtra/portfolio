@@ -79,7 +79,7 @@
     border-radius: 2% / 3%;
     /*border: 1px solid #383838;*/
     overflow-y: auto;
-    backface-visibility: hidden;
+    /*backface-visibility: hidden;*/
     padding: 0;
 }
 
@@ -95,9 +95,15 @@
     border-radius: 2% / 3%;
 }
 
+.billboard .front
+{
+	backface-visibility: hidden;
+}
+
 .billboard .back
 {
     transform: rotateY(180deg);
+	backface-visibility: hidden;
 }
 
 .flip-horiz
@@ -229,7 +235,6 @@
 	#introduction>.card-big-left-up
 	{
 		background-image: url('img/intro.jpg');
-		backface-visibility: hidden;
 	}
 }
 @media screen and (orientation: portrait)
@@ -238,29 +243,24 @@
 	{
 		background-image: url('img/intro.jpg');
 		background-position: 50%;
-		backface-visibility: hidden;
 	}
 }
 
 #skills>.card-big-left-up
 {
     background-image: url('img/skills.jpg');
-	backface-visibility: hidden;
 }
 #projects>.card-big-left-up
 {
     background-image: url('img/projects.jpg');
-	backface-visibility: hidden;
 }
 #experience>.card-big-left-up
 {
     background-image: url('img/experience.jpg');
-	backface-visibility: hidden;
 }
 #contact>.card-big-left-up
 {
     background-image: url('img/contact.jpg');
-	backface-visibility: hidden;
 }
 .card-big-left-up>img
 {
