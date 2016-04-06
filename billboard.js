@@ -35,12 +35,12 @@ Billboard.prototype.flip = function($clickedMenuItem)
     setTimeout(function()
     {
         $('.' + otherside).addClass('hidden');
-    }, 260);
+    }, 480);
 	setTimeout(function()
     {
-		// $('.' + otherside).addClass('hidden');
+		$('.' + otherside).addClass('hidden');
         $newBack.removeClass('hidden');
-    }, 230);
+    }, 240);
 	// $('.' + otherside).addClass('hidden');
 	// $newBack.removeClass('hidden');
 };
