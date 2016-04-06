@@ -140,12 +140,12 @@
     font-size: 3vw;
 }
 
-.card .front {
+.card .card-front {
   background-color: white;
   backface-visibility: hidden;
 }
 
-.card .back {
+.card .card-back {
   background-color: white;
   backface-visibility: hidden;
   transform: rotateY(180deg);

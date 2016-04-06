@@ -32,13 +32,13 @@ Billboard.prototype.flip = function($clickedMenuItem)
 		
     $('.billboard').toggleClass('flip-horiz');
     
-    // setTimeout(function()
-    // {
-    //     $('.' + otherside).addClass('hidden');
-    // }, 280);
+    setTimeout(function()
+    {
+        $('.' + otherside).addClass('hidden');
+    }, 260);
 	setTimeout(function()
     {
-		$('.' + otherside).addClass('hidden');
+		// $('.' + otherside).addClass('hidden');
         $newBack.removeClass('hidden');
     }, 230);
 	// $('.' + otherside).addClass('hidden');
