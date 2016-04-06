@@ -39,10 +39,10 @@ Billboard.prototype.flip = function($clickedMenuItem)
     {				
 		// $newBack.removeClass('hidden');
         $('.' + otherside).addClass('hidden');
-    }, 280);
+    }, 560);
 	setTimeout(function()
     {
 		// $('.' + otherside).addClass('hidden');
         $newBack.removeClass('hidden');
-    }, 240);
+    }, 480);
 };

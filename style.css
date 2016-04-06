@@ -42,7 +42,7 @@
         border-radius: 2% / 3%;
         box-shadow: 0px 5px 5px 2px #4C4C4C;
         transform-style: preserve-3d;
-        transition: transform 1s;
+        transition: transform 2.0s;
         transform: rotateY(6deg);
 		backface-visibility: visible;
     }
@@ -61,7 +61,7 @@
         border-radius: 2% / 3%;
         box-shadow: 0px 5px 5px 2px #4C4C4C;
         transform-style: preserve-3d;
-        transition: transform 1s;
+        transition: transform 2.0s;
         transform: rotateY(6deg);
 		backface-visibility: visible;
     }
