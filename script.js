@@ -73,7 +73,7 @@ document.addEventListener("DOMContentLoaded", function(event)
     $('.billboard>#splash').on('click', '#button-proceed', function()
     {
         cardCollection.stopAnimation();
-		// $('.billboard>#splash>#button-proceed').addClass('hidden');
+		$('.billboard>#splash #button-proceed').addClass('hidden');
         $('.navbar').show();
         billboard.flip($('.navbar-nav>li[label="introduction"]')); 
     });
