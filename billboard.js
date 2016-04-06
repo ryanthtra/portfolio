@@ -12,56 +12,37 @@ Billboard.prototype.flip = function($clickedMenuItem)
     if ($clickedMenuItem.hasClass('active'))
         return;
     
-    // // Set the clicked label to active
-    // $('.active').removeClass('active');
-    // $clickedMenuItem.addClass('active'); 
+    // Set the clicked label to active
+    $('.active').removeClass('active');
+    $clickedMenuItem.addClass('active'); 
     
-    // var side = this.isBackShown ? 'front' : 'back';
-    // var otherside = !this.isBackShown ? 'front' : 'back';
-    // this.isBackShown = !this.isBackShown;    
+    var side = this.isBackShown ? 'front' : 'back';
+    var otherside = !this.isBackShown ? 'front' : 'back';
+    this.isBackShown = !this.isBackShown;    
     
-    // // Remove the back class from the previous back class
-    // var $prevBack = $('.billboard .' + side);
-    // $prevBack.addClass('hidden');
-    // $prevBack.removeClass(side);
+    // Remove the back class from the previous back class
+    var $prevBack = $('.billboard .' + side);
+    $prevBack.addClass('hidden');
+    $prevBack.removeClass(side);
 
-    // // Add the back class to the section that will 
-    // var label = $clickedMenuItem.attr('label');
-    // var $newBack = $('#' + label);
-    // $newBack.addClass(side);
+    // Add the back class to the section that will 
+    var label = $clickedMenuItem.attr('label');
+    var $newBack = $('#' + label);
+    $newBack.addClass(side);
 		
-	// // $('.' + otherside).addClass('hidden');
+	// $('.' + otherside).addClass('hidden');
 	// $newBack.removeClass('hidden');
 		
     $('.billboard').toggleClass('flip-horiz');
     
     setTimeout(function()
-    {
-		// Set the clicked label to active
-		$('.active').removeClass('active');
-		$clickedMenuItem.addClass('active'); 
-		
-		var side = this.isBackShown ? 'front' : 'back';
-		var otherside = !this.isBackShown ? 'front' : 'back';
-		this.isBackShown = !this.isBackShown;    
-		
-		// Remove the back class from the previous back class
-		var $prevBack = $('.billboard .' + side);
-		$prevBack.addClass('hidden');
-		$prevBack.removeClass(side);
-
-		// Add the back class to the section that will 
-		var label = $clickedMenuItem.attr('label');
-		var $newBack = $('#' + label);
-		$newBack.addClass(side);
-			
-		// $('.' + otherside).addClass('hidden');
-		$newBack.removeClass('hidden');
+    {				
+		// $newBack.removeClass('hidden');
         $('.' + otherside).addClass('hidden');
     }, 280);
-	// setTimeout(function()
-    // {
-	// 	$('.' + otherside).addClass('hidden');
-    //     $newBack.removeClass('hidden');
-    // }, 240);
+	setTimeout(function()
+    {
+		// $('.' + otherside).addClass('hidden');
+        $newBack.removeClass('hidden');
+    }, 240);
 };
