@@ -44,5 +44,5 @@ Billboard.prototype.flip = function($clickedMenuItem)
     {
 		// $('.' + otherside).addClass('hidden');
         $newBack.removeClass('hidden');
-    }, 480);
+    }, 510);
 };
