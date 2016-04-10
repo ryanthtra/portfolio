@@ -11,13 +11,13 @@ Card.prototype.flipCard = function()
         $(this.cardDom).addClass('card-flipback');
         $(this.cardDom).removeClass('card-flip');
         $(this.cardDom).removeClass('card-flipped');
-        var front = $(this.cardDom).find('.front').find('p');
-        var back = $(this.cardDom).find('.back').find('p');
-        setTimeout(function()
-        {
-            back.addClass('hidden');
-            front.removeClass('hidden');
-        }, 500);           
+        // var front = $(this.cardDom).find('.front').find('p');
+        // var back = $(this.cardDom).find('.back').find('p');
+        // setTimeout(function()
+        // {
+        //     back.addClass('hidden');
+        //     front.removeClass('hidden');
+        // }, 500);           
     }
     else 
     {
@@ -25,13 +25,13 @@ Card.prototype.flipCard = function()
         $(this.cardDom).addClass('card-flipped');
         if ($(this.cardDom).hasClass('card-flipback'))
         $(this.cardDom).removeClass('card-flipback');
-        var front = $(this.cardDom).find('.front').find('p');
-        var back = $(this.cardDom).find('.back').find('p');
-        setTimeout(function()
-        {
-            back.removeClass('hidden');
-            front.addClass('hidden');
-        }, 500);
+        // var front = $(this.cardDom).find('.front').find('p');
+        // var back = $(this.cardDom).find('.back').find('p');
+        // setTimeout(function()
+        // {
+        //     back.removeClass('hidden');
+        //     front.addClass('hidden');
+        // }, 500);
     }
     
     this.cardFlipped = !this.cardFlipped;
@@ -45,7 +45,7 @@ function CardCollection(str1, str2)
     this.str2 = str2;
     this.numCards = Math.max(this.str1.length, this.str2.length);
     this.cards = [];
-    this.flipCardsLoop = null;
+    // this.flipCardsLoop = null;
     
     this.init();
 }
@@ -62,12 +62,12 @@ CardCollection.prototype.init = function()
         });
         var front = $('<div>',
         {
-            class: 'front card-content' 
+            class: 'card-front card-content' 
         });
         front.html($('<p>').html(this.str1.charAt(i)));
         var back = $('<div>',
         {
-            class: 'back card-content' 
+            class: 'card-back card-content' 
         });
         back.html($('<p>').html(this.str2.charAt(i)));
         cardDom.append(front);
@@ -77,18 +77,7 @@ CardCollection.prototype.init = function()
     }
     
     // establish the animation loop
-    var self = this;
-    setTimeout(function()
-    {
-        self.flip(self.cards);
-    }, 2000);
-    setTimeout(function()
-    {
-        self.flipCardsLoop = setInterval(function()
-        {
-            self.flip(self.cards);
-        }, 7000);
-    }, 1000);
+    this.startAnimation();
 };
 
 CardCollection.prototype.flip = function(cards)
@@ -102,5 +91,26 @@ CardCollection.prototype.flip = function(cards)
             }, 100 * i); 
         })();
     }
+}
+
+CardCollection.prototype.startAnimation = function()
+{
+	var self = this;
+    setTimeout(function()
+    {
+        self.flip(self.cards);
+    }, 2000);
+    setTimeout(function()
+    {
+        flipCardsLoop = setInterval(function()
+        {
+            self.flip(self.cards);
+        }, 7000);
+    }, 1000);
+}
+CardCollection.prototype.stopAnimation = function()
+{
+	clearInterval(flipCardsLoop);
+	console.log("Stopping Animation!");
 }
 

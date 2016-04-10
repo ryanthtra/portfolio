@@ -121,27 +121,80 @@ var cardContent =
 	// Projects Section
 	projects_mboutique: [
 		"MBoutique. <a href='http://ryanthtra.github.io/mboutique' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/mboutique' target='_blank'>(Code)</a>",
-		"<b>Description:</b> A website of a fake business that bakes and sells the decadent sweet treat, the macaron."
+		"<b>Description:</b> A website of a fake business that bakes and sells the decadent sweet treat, the macaron.",
+		[
+			"After the first two weeks of the LearningFuze program learning HTML and CSS, this is where I applied all of that accumulated knowlege.",
+			"The challenges I faced include understanding advanced selectors as well as layout properties, such as float, position, and display.",
+			"Later in the course, I added a few extra features, including responsive design and a JavaScript file, which was responsible for changing the string content from English to German and vice versa."
+		]
 	],
 	projects_memmatch: [
 		"Memory Match Game. <a href='http://ryanthtra.github.io/memory_match' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/memory_match' target='_blank'>(Code)</a>",
-		"<b>Description:</b> A browser version of the classic game Memory, with a sweet Mass Effect theme!"
+		"<b>Description:</b> A browser version of the classic game Memory, with a sweet Mass Effect theme!",
+		"This was my first web application project that included JavaScript.  As such, most of the skills I picked up were JavaScript-related:",
+		[
+			"Program and logic flow.",
+			"Variables, functions, and conditionals.",
+			"Event-handling and event delegation, including the use of anonymous functions.",		
+			"Hiding elements."
+		],
+		"The biggest challenges were being able to manage all the different states of the game.",
+		"I later added more to the project, featuring:",
+		[
+			"Random card numbers and card arrangements.",
+			"Almost completely object-oriented design.",
+			"An object-oriented state machine.",
+			"Graphical effects, such as screen shaking and 3D rotations."
+		]
 	],
 	projects_sgt: [
 		"Student Grade Table. <a href='http://ryanthtra.github.io/SGT' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/sgt' target='_blank'>(Code)</a>",
-		"<b>Description:</b> A mock administrative web application for schoolteachers to access and enter grade data for their students."
+		"<b>Description:</b> A mock administrative web application for schoolteachers to access and enter grade data for their students.",
+		"The project was originally a front-end only design, where I picked up these skills:",
+		[
+			"Arrays and the use of them to manipulate the DOM.",
+			"Code organization the benefit of creating helper functions to compose other functions.",
+			"Code documentation (JSDoc commenting).",
+			"Using Twitter Bootstrap to quickly create and style a responsive page.",
+			"Paired programming."
+		],
+		"The project was later used to learn other web development skills, such as:",
+		[
+			"Using AJAX to call APIs and access student data from a remote server.",
+			"Using PHP and MySQL to create our own databases and APIs to use for the front end.",
+			"Creating API keys, which protect servers from unauthorized access to the APIs."
+		]
 	],
 	projects_calculator: [
 		"Calculator. <a href='http://ryanthtra.github.io/calculator' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/calculator' target='_blank'>(Code)</a>",
-		"<b>Description:</b> A basic Miami Vice-themed arithmetic calculator with solar panels."
+		"<b>Description:</b> A basic Miami Vice-themed arithmetic calculator with solar panels.",
+		[
+			"Basically works like all arithmetic calculators do.",
+			"However, unlike most calculators, this one enables and disables buttons based on the state of a calculation, so division by zero could never happen, for example.",
+			"This is the first project where I implemented an object-oriented state machine, as learned from the book <a href='http://www.ai-junkie.com/books/toc_pgaibe.html' target='_blank'>Programming Game AI by Example</a> (Chapter 2)."
+		]
 	],
 	projects_tictactoe: [
 		"Tic Tac Toe. <a href='http://ryanthtra.github.io/hacka-tictactoe-athon' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/hacka-tictactoe-athon' target='_blank'>(Code)</a>",
-		"<b>Description:</b> A browser version of a two-player Tic Tac Toe game, with a Star Wars theme.  Initially developed as a one-day hackathon project."
+		"<b>Description:</b> A browser version of a two-player Tic Tac Toe game, with a Star Wars theme.  Initially developed as a one-day hackathon project.",
+		[
+			"Was the first team-based project of the program.",
+			"Learned team-building skills of web development, such as project-management, division of labor, collaboration, and the agile software development process."
+		],
+		"Features added later (solo):",
+		[
+			"Sound effects.",
+			"Object-oriented code.",
+			"Responsive page layout design."
+		]
 	],
 	projects_tribute: [
 		"Tribute Page. <a href='http://ryanthtra.github.io/fcc_tributepage' target='_blank'>(Demo)</a> <a href='http://github.com/ryanthtra/fcc_tributepage' target='_blank'>(Code)</a>",
-		"<b>Description:</b> A simple website that gives a tribute to the hero of the Mass Effect story, Commander Shepard."
+		"<b>Description:</b> A simple website that gives a tribute to the hero of the Mass Effect story, Commander Shepard.",
+		[
+			"I basically used this project to refresh and reinforce my HTML, CSS, and Bootstrap skills.",
+			"Made the page more interactive and dynamic than the <a href='https://www.freecodecamp.com/challenges/build-a-tribute-page' target='_blank'>requirements listed</a> by giving the user the choice of nine different biographies and to enter a custom first name for the Commander."
+		]
 	],
 	
 	// Experience Section

@@ -30,16 +30,19 @@ Billboard.prototype.flip = function($clickedMenuItem)
     var $newBack = $('#' + label);
     $newBack.addClass(side);
 		
+	// $('.' + otherside).addClass('hidden');
+	// $newBack.removeClass('hidden');
+		
     $('.billboard').toggleClass('flip-horiz');
     
     setTimeout(function()
-    {
+    {				
+		// $newBack.removeClass('hidden');
         $('.' + otherside).addClass('hidden');
-    }, 280);
+    }, 560);
 	setTimeout(function()
     {
+		// $('.' + otherside).addClass('hidden');
         $newBack.removeClass('hidden');
-    }, 230);
-	// $('.' + otherside).addClass('hidden');
-	// $newBack.removeClass('hidden');
+    }, 510);
 };

@@ -4,6 +4,7 @@
 <head>
     <title>Ryan Transfiguracion - Full-Stack Developer</title>
     
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
     <!--jQuery-->
     <script src="libs/jquery/jquery-2.1.4.min.js"></script>
     <!--Bootstrap-->
@@ -38,6 +39,7 @@
                     <li label="projects"><a>Projects</a></li>
                     <li label="experience"><a>Experience</a></li>
                     <li label="contact"><a>Contact</a></li>
+					<li label="splash"><a>See Splash Again</a></li>
                 </ul>
             </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
@@ -191,6 +193,28 @@
     
 </div> <!--.page-wrapper-->
 
+	<div class="hidden">
+		<script type="text/javascript">
+			<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"img/splash_landscape.jpg",
+				"img/splash_portrait.jpg",
+				"img/intro.jpg",
+				"img/skills.jpg",
+				"img/projects.jpg",
+				"img/experience.jpg",
+				"img/contact.jpg"
+			)
+			//--><!]]>
+		</script>
+	</div>
     <!--Loading JS file at the bottom-->
     <script src="script.js"></script>
     <script src="billboard.js"></script>
