@@ -68,8 +68,8 @@ var cardContent =
 			"<b>Object-Oriented Programming:</b> Basic objects, constructors, methods, prototypes.",
 			"<b>Functional Programming:</b> Anonymous functions, closures, functions as objects, event callbacks.",
 			"<b>Asynchronous Data Access:</b> Sending and retrieving data from a server via AJAX.",
-			"<b>Front-End MVC Frameworks:</b> Familar with and eager to learn, such as Angular and Ember.",
-			"<b>Visualization Frameworks:</b> Familiar with and eager to learn, such as React and D3."
+			"<b>Front-End MVC Frameworks:</b> Knowledge of and skills in, such as Angular and React.",
+			"<b>Visualization Frameworks:</b> Familiar with and eager to learn, such as D3."
 		]
 		
 	],
@@ -83,7 +83,15 @@ var cardContent =
 			"<b>M</b>ySQL - relational database management system.",
 			"<b>P</b>HP Hypertext Preprocessor - server-side scripting language."	
 		],
-		"I'm also looking forward to learning newer back-end technologies, such as MongoDB and Node.js."				
+		"I'm also have skills in other back-end technologies, such as:",
+		[
+			"NodeJS",
+			"MongoDB",
+			"Express",
+			"Sails",
+			"PostgreSQL",
+			"MariaDB"
+		]				
 	],
 	skills_version: [
 		"Version Control Systems.",
@@ -114,6 +122,7 @@ var cardContent =
 		[
 			"<b>Programming Languages:</b> C#, XAML, Java, Objective-C",
 			"<b>Platforms:</b> J2ME, .NET 4.5+, WinRT, iOS",
+			"<b>Bug-tracking Software:</b> TestTrack, JIRA",
 			"<b>Other Tools:</b> Unity3D, MVVM design pattern"			
 		]
 	],
