@@ -80,17 +80,14 @@ var cardContent =
 		[
 			"<b>L</b>inux - operating system (Ubuntu).",
 			"<b>A</b>pache - server software.",
-			"<b>M</b>ySQL - relational database management system.",
+			"<b>M</b>ySQL (and MariaDB)- relational database management system.",
 			"<b>P</b>HP Hypertext Preprocessor - server-side scripting language."	
 		],
-		"I'm also have skills in other back-end technologies, such as:",
+		"I'm also have varying levels of familiarity with other back-end technologies, such as:",
 		[
 			"NodeJS",
 			"MongoDB",
-			"Express",
-			"Sails",
-			"PostgreSQL",
-			"MariaDB"
+			"Express"
 		]				
 	],
 	skills_version: [
